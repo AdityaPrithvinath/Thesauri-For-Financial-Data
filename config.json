@@ -1,0 +1,50 @@
+{
+    "collection-path": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\MorningstarDocuments",
+    "Corpus-Evaluation":
+    {
+        "Document-Scores": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Corpus-Evaluation"
+    },
+    "Data-File": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Corpus-Evaluation\\splitCountText.json",
+    "analyzer-options":
+    {
+        "type": "lemma",
+        "stop-words-file": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\STOP-WORDS\\stopwords_nltk.txt"
+    },
+    "corpus-options":
+    {
+        "Pre-Processed-Corpus-destination": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Corpus\\PreProcessedCorpus-Base",
+        "Pre-Processed-Corpus-Analysis": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Corpus\\PPC-Analysis\\",
+        "Analyzed-Corpus": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Corpus\\AnalyzedCorpus-withStopWords",
+        "Analyzed-Corpus-Analysis": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Corpus\\AC-Analysis\\"
+    },
+    "w2p-model":
+    {
+        "W2P-model-file-bigrams": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\PhraserModels\\W2PBigrams",
+        "W2P-model-file-trigrams": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\PhraserModels\\W2PTrigrams",
+        "min-count-bigram": 50,
+        "threshold-bigram": 200,
+        "min-count-trigram": 50,
+        "threshold-trigram": 200
+    },
+    "w2v-model":
+    {
+        "model-file-location": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\Word2VecModels\\W2Vmodel-5",
+        "synonym-file": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\synonymns",
+        "workers": 4,
+        "size": 200,
+        "min_count": 50,
+        "window": 5
+    },
+    "engine-options":
+    {
+        "type" : "bm25",
+        "index-file": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\PICKLE",
+        "index-json": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES\\INDEX-JSON",
+        "output-path": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\OUTPUTFILES",
+        "n": 10,
+        "k": 1.2,
+        "b": 0.75
+    },
+    "docs-file": "C:\\Users\\adity\\Documents\\GitHub\\MSTR_\\CODE_12Dec\\DOCS-FILE\\dp-docs.json"
+
+}
